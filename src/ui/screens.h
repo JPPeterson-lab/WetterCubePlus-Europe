@@ -33,7 +33,6 @@ typedef struct _objects_t {
     lv_obj_t *labeltemp;
     lv_obj_t *labeldatum;
     lv_obj_t *fc_settings;
-    lv_obj_t *fc_plus_38_ffffff;
     lv_obj_t *labelbuttonbackward;
     lv_obj_t *labelbuttonforward;
     lv_obj_t *container_28;

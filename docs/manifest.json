@@ -1,6 +1,6 @@
 {
   "name": "WetterCubePlus Europe",
-  "version": "0.1.0-beta4",
+  "version": "0.1.0-beta5",
   "new_install_prompt_erase": true,
   "builds": [
     {

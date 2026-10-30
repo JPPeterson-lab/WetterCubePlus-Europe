@@ -18,7 +18,6 @@
 #include "src/ui/images/rain.inc"
 #include "src/ui/images/night_full_moon_snow.inc"
 #include "src/ui/images/day_clear.inc"
-#include "src/ui/images/fc_plus_38_ffffff.inc"
 #include "src/ui/images/fc_right_60.inc"
 #include "src/ui/images/night_full_moon_rain.inc"
 #include "src/ui/images/thunder.inc"
@@ -28,7 +27,7 @@
 #include "src/ui/images/day_rain.inc"
 #include "src/ui/images/night_full_moon_partial_cloud.inc"
 #include "src/ui/images/pico_dark_logo_132.inc"
-const ext_img_desc_t images[27] = {
+const ext_img_desc_t images[26] = {
     { "rain_thunder", &rain_thunder },
     { "mist", &mist },
     { "day_partial_cloud", &day_partial_cloud },
@@ -46,7 +45,6 @@ const ext_img_desc_t images[27] = {
     { "rain", &rain },
     { "night_full_moon_snow", &night_full_moon_snow },
     { "day_clear", &day_clear },
-    { "fc_plus_38_ffffff", &fc_plus_38_ffffff },
     { "fc_right_60", &fc_right_60 },
     { "night_full_moon_rain", &night_full_moon_rain },
     { "thunder", &thunder },

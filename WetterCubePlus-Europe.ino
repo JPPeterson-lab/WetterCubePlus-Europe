@@ -4677,7 +4677,6 @@ void setup() {
   REG_CB(objects.labelbuttonhomeverlauf, cbHome, LV_EVENT_CLICKED);  // verlauf
   REG_CB(BTN_SUN_HOME, cbHome, LV_EVENT_CLICKED);  // screensunmoon
   REG_CB(BTN_AIR_HOME, cbHome, LV_EVENT_CLICKED);  // screenairquality
-  if (objects.fc_plus_38_ffffff) lv_obj_add_flag(objects.fc_plus_38_ffffff, LV_OBJ_FLAG_HIDDEN);   // Europe: kein Gesundheitsscreen (Biowetter)
   // Warn-Screens
   REG_CB(objects.screenwarnungpollen, cbWarnTap,       LV_EVENT_CLICKED);
   #undef REG_CB

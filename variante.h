@@ -10,7 +10,7 @@
 
 // Weather, air quality and pollen from Open-Meteo (CAMS Europe); no DWD data
 #define VARIANTE_NAME     "WetterCubePlus Europe"
-#define FIRMWARE_VERSION "0.1.0-beta4"
+#define FIRMWARE_VERSION "0.1.0-beta5"
 // Updates: version file and firmware come from GitHub (raw file and GitHub Pages of this repository)
 #define OTA_VERSION_URL   "https://raw.githubusercontent.com/JPPeterson-lab/WetterCubePlus-Europe/main/docs/version.json"
 #define OTA_BIN_URL       "https://jppeterson-lab.github.io/WetterCubePlus-Europe/firmware/firmware.bin"
