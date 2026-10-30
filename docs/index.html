@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WetterCubePlus Europe – Installer</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10.4.0/dist/web/install-button.js"></script>
+  <style>
+    body{font-family:Arial,sans-serif;background:#0d1117;color:#e6edf3;margin:0;padding:24px;max-width:720px;margin:auto;line-height:1.6}
+    h1{color:#58a6ff} .badge{font-size:.5em;background:#1f6feb;color:#fff;padding:3px 8px;border-radius:10px;vertical-align:middle}
+    .card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:18px;margin:18px 0}
+    a{color:#58a6ff} code{background:#21262d;padding:1px 5px;border-radius:4px}
+    footer{font-size:.8em;color:#8b949e;margin-top:28px}
+  </style>
+</head>
+<body>
+  <h1>WetterCubePlus Europe <span class="badge">v0.1.0-beta2</span></h1>
+  <p>Beta version of the WetterCubePlus for Europe: weather, air quality and pollen from Open-Meteo, in English. Hardware, wiring and case are the same as for the <a href="https://wiki.wettercube.de/index.php/WetterCubePlus/Hardware_und_Verkabelung/en">WetterCubePlus</a>. Please report problems as an <a href="https://github.com/JPPeterson-lab/WetterCubePlus-Europe/issues">issue</a>.</p>
+  <div class="card">
+    <h2>Install the firmware</h2>
+    <p>Connect the ESP32-S3 with USB-C. Chrome or Edge is required. If you tick <b>"Erase device"</b> in the install window, the whole flash memory is erased, including saved Wi-Fi data and settings. Without the tick the settings stay.</p>
+    <div style="margin:14px 0;padding:12px 14px;background:#161b22;border:1px solid #30363d;border-radius:8px;font-size:.92em;line-height:1.55">
+      <b>Which port do I choose?</b><br>
+      After you click the install button, the browser opens a window asking to connect to a serial port. Pick your board and click "Connect":
+      <ul style="margin:8px 0 8px 18px;padding:0">
+        <li><b>Windows:</b> an entry with "COM" and a number, for example <em>USB-SERIAL CH340 (COM3)</em> or <em>USB JTAG/serial debug unit (COM5)</em>.</li>
+        <li><b>Mac:</b> an entry with "usbmodem" or "usbserial", for example <em>cu.usbmodem1101</em>; best the one starting with "cu.".</li>
+        <li><b>Linux:</b> <em>ttyACM0</em> or <em>ttyUSB0</em>.</li>
+      </ul>
+      Not sure? Unplug the cable, open the list, plug it in again: the entry that appears is your board. If none appears, use another data cable (not a charge-only one) or another USB port.
+    </div>
+    <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+  </div>
+  <div class="card">
+    <h2>First setup</h2>
+    <ol>
+      <li>Touch calibration: tap the 4 crosses one after the other.</li>
+      <li>Connect your phone or PC to the Wi-Fi <b>“WetterCubePlus-Europe-Setup”</b>. The <b>password (8 digits) is shown on the display</b>.</li>
+      <li>The setup portal opens by itself (otherwise open <b>192.168.4.1</b>).</li>
+      <li>Choose your Wi-Fi, enter the password, the city and the country, then “Save &amp; restart”.</li>
+      <li>More settings: <a href="http://wettercubeplus-europe.local">wettercubeplus-europe.local</a></li>
+    </ol>
+  </div>
+  <footer>Weather data by <a href="https://open-meteo.com">Open-Meteo.com</a> (<a href="https://open-meteo.com/en/licence">CC BY 4.0</a>; values are partly converted by the WetterCube). Pollen and air quality: Contains modified Copernicus Atmosphere Monitoring Service information, via Open-Meteo. Location data by <a href="https://www.geonames.org">GeoNames</a> via Open-Meteo. Source code: <a href="https://github.com/JPPeterson-lab/WetterCubePlus-Europe">GitHub</a> (Apache 2.0).</footer>
+</body>
+</html>
