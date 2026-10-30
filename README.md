@@ -1,9 +1,4 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/wettercube-plus-europe-logo-hell.png">
-    <img src="assets/wettercube-plus-europe-logo.png" width="420" alt="WetterCubePlus Europe">
-  </picture>
-</p>
+<p align="center"><img src="assets/europe-cube.jpg" width="820" alt="WetterCubePlus Europe: weather, pollen and air quality for Europe"></p>
 
 <p align="center"><img src="https://img.shields.io/badge/Version-v0.1.0--beta2-blue" alt="Version"> <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache 2.0"> <img src="https://img.shields.io/badge/ESP32--S3-N16R8-orange" alt="ESP32-S3"></p>
 
