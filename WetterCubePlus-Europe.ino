@@ -4271,10 +4271,9 @@ static void cbMenu(lv_event_t*) {
     if (cfg.pollen_warn) lv_obj_add_state(objects.pollenswitch, LV_STATE_CHECKED);
     else                 lv_obj_clear_state(objects.pollenswitch, LV_STATE_CHECKED);
   }
-  if (objects.dwdswitch) {
-    if (cfg.warn_region) lv_obj_add_state(objects.dwdswitch, LV_STATE_CHECKED);
-    else                 lv_obj_clear_state(objects.dwdswitch, LV_STATE_CHECKED);
-  }
+  // Europe hat keine Wetterwarnungen: Schalter und Beschriftung aus dem Menue ausblenden
+  if (objects.dwdswitch)      lv_obj_add_flag(objects.dwdswitch, LV_OBJ_FLAG_HIDDEN);
+  if (objects.labeldwdchange) lv_obj_add_flag(objects.labeldwdchange, LV_OBJ_FLAG_HIDDEN);
   if (objects.labellightchangevalue)
     lv_arc_set_value(objects.labellightchangevalue, cfg.brightness);
 }

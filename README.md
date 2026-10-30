@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/europe-cube.jpg" width="820" alt="WetterCubePlus Europe: weather, pollen and air quality for Europe"></p>
 
-<p align="center"><img src="https://img.shields.io/badge/Version-v0.1.0--beta2-blue" alt="Version"> <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache 2.0"> <img src="https://img.shields.io/badge/ESP32--S3-N16R8-orange" alt="ESP32-S3"></p>
+<p align="center"><img src="https://img.shields.io/badge/Version-v0.1.0--beta3-blue" alt="Version"> <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache 2.0"> <img src="https://img.shields.io/badge/ESP32--S3-N16R8-orange" alt="ESP32-S3"></p>
 
 A compact Wi-Fi weather display for **Europe**, based on the **ESP32-S3 N16R8** with a 3.5" touch display: weather, pollen and air quality for your place, in English. It is the European version of the German [WetterCubePlus](https://github.com/JPPeterson-lab/WetterCubePlus), without the data of the German Weather Service (DWD), so it works in every country that Open-Meteo covers.
 
@@ -16,10 +16,45 @@ A compact Wi-Fi weather display for **Europe**, based on the **ESP32-S3 N16R8** 
 
 *A finished WetterCubePlus Europe in the printed case, running at home.*
 
+## 🖥️ Screens
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/screens/hauptscreen.png" width="230" alt="Main screen"><br><sub>Main screen</sub></td>
+    <td align="center"><img src="assets/screens/vorhersage.png" width="230" alt="Weather forecast"><br><sub>Forecast</sub></td>
+    <td align="center"><img src="assets/screens/temperaturverlauf.png" width="230" alt="Temperature history"><br><sub>Temperature history, 24 h</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screens/pollen-stunden.png" width="230" alt="Pollen forecast, hours"><br><sub>Pollen, next hours</sub></td>
+    <td align="center"><img src="assets/screens/pollen-tage.png" width="230" alt="Pollen forecast, days"><br><sub>Pollen, 3 days</sub></td>
+    <td align="center"><img src="assets/screens/luftqualitaet.png" width="230" alt="Air quality"><br><sub>Air quality</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screens/sonne-mond.png" width="230" alt="Sun and moon"><br><sub>Sun, UV, moon</sub></td>
+    <td align="center"><img src="assets/screens/menue.png" width="230" alt="Menu"><br><sub>Menu</sub></td>
+    <td align="center"><img src="assets/screens/pollenwarnung.png" width="230" alt="Pollen warning"><br><sub>Pollen warning</sub></td>
+  </tr>
+</table>
+
+The **notice tile** at the bottom of the main screen is calculated from the forecast (not official warnings):
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/screens/hinweis-gewitter.png" width="230" alt="Thunderstorm notice"><br><sub>Thunderstorm</sub></td>
+    <td align="center"><img src="assets/screens/hinweis-starkregen.png" width="230" alt="Heavy rain notice"><br><sub>Heavy rain</sub></td>
+    <td align="center"><img src="assets/screens/hinweis-hitze.png" width="230" alt="Heat notice"><br><sub>Heat</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screens/hinweis-schnee.png" width="230" alt="Snow notice"><br><sub>Snow or ice</sub></td>
+    <td align="center"><img src="assets/screens/hinweis-luft.png" width="230" alt="Air quality notice"><br><sub>Poor air quality</sub></td>
+    <td align="center"><img src="assets/screens/hinweis-luftdruck.png" width="230" alt="Pressure notice"><br><sub>Pressure falling fast</sub></td>
+  </tr>
+</table>
+
 ## ✨ What it can do
 
 - **Weather:** temperature (actual and feels-like), humidity, air pressure, wind (km/h, mph, m/s or knots), UV index, sun and moon, 4-hour forecast, 24-hour temperature curve with rain bars
-- **Pollen forecast** for 4 days (alder, birch, grass, mugwort, olive, ragweed; choose your own allergens) and **air quality** (European AQI)
+- **Pollen forecast** for 3 days (today, tomorrow, day after tomorrow) (alder, birch, grass, mugwort, olive, ragweed; choose your own allergens) and **air quality** (European AQI)
 - **Notice tile** that is calculated from the forecast: thunderstorm, heavy rain, rain, storm gusts, heat, snow or ice, frost, strong UV, poor air quality and fast pressure falls; each notice can be switched off
 - **Time zone** from your location, location search with a country filter, night mode, dark mode
 - **Web interface** at `http://wettercubeplus-europe.local`, Wi-Fi setup without an app, back up and restore settings
