@@ -10,6 +10,12 @@ A compact Wi-Fi weather display for **Europe**, based on the **ESP32-S3 N16R8** 
 >
 > **⚖️ At your own risk:** No liability, see the [usage notes](https://wettercube.de/en/usage-notes/). Do not use for safety-critical purposes. The notices on the display are calculated from the forecast; they are **not** official weather warnings.
 
+## 📸 How it looks when it is built
+
+<p align="center"><img src="assets/europe-cube-windowsill.jpg" width="640" alt="A finished WetterCubePlus Europe in a printed case on a windowsill"></p>
+
+*A finished WetterCubePlus Europe in the printed case, running at home.*
+
 ## ✨ What it can do
 
 - **Weather:** temperature (actual and feels-like), humidity, air pressure, wind (km/h, mph, m/s or knots), UV index, sun and moon, 4-hour forecast, 24-hour temperature curve with rain bars
