@@ -215,7 +215,7 @@ const char WEBUI_HTML[] PROGMEM = R"rawhtml(
 
 <div class="card">
   <h2>My allergens</h2>
-  <p class="hint">The pollen warning and the pollen screens only consider the selected pollen. Pollen data covers Europe during the pollen season (forecast for 4 days, source: CAMS via Open-Meteo).</p>
+  <p class="hint">The pollen warning and the pollen screens only consider the selected pollen. Pollen data covers Europe during the pollen season (forecast for 3 days, source: CAMS via Open-Meteo).</p>
   %POL_AUSWAHL%
 </div>
 </div>

@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.0-beta3 (2026-10-30)
+## v0.1.0-beta4 (2026-10-30)
 
-- Menu: the switch "Weather warnings" is gone (this version has no weather warnings)
-- README and wiki: screenshots of all screens and notices
+- Web interface: the pollen card now says "forecast for 3 days" (the display shows today, tomorrow and the day after tomorrow)
+- Web interface and wiki: English screenshots of all cards

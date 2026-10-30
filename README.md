@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/europe-cube.jpg" width="820" alt="WetterCubePlus Europe: weather, pollen and air quality for Europe"></p>
 
-<p align="center"><img src="https://img.shields.io/badge/Version-v0.1.0--beta3-blue" alt="Version"> <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache 2.0"> <img src="https://img.shields.io/badge/ESP32--S3-N16R8-orange" alt="ESP32-S3"></p>
+<p align="center"><img src="https://img.shields.io/badge/Version-v0.1.0--beta4-blue" alt="Version"> <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="Apache 2.0"> <img src="https://img.shields.io/badge/ESP32--S3-N16R8-orange" alt="ESP32-S3"></p>
 
 A compact Wi-Fi weather display for **Europe**, based on the **ESP32-S3 N16R8** with a 3.5" touch display: weather, pollen and air quality for your place, in English. It is the European version of the German [WetterCubePlus](https://github.com/JPPeterson-lab/WetterCubePlus), without the data of the German Weather Service (DWD), so it works in every country that Open-Meteo covers.
 
