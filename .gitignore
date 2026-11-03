@@ -1,0 +1,7 @@
+build/
+build_europe/
+sls_export/
+.DS_Store
+
+# Claude Code
+.claude/
