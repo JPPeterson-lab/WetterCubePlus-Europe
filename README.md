@@ -80,6 +80,7 @@ The case of the WetterCubePlus fits (lower part and lid, 3MF): in the folder [`g
 |---|---|
 | **[wettercube.de](https://wettercube.de/en/products/wettercubeplus/)** | overview of all WetterCubes, [build guide](https://wettercube.de/en/build-guide/), [hardware](https://wettercube.de/en/hardware/) |
 | **[Wiki](https://wiki.wettercube.de/index.php/WetterCubePlus/Europe/en)** | settings, notices, updates, troubleshooting |
+| **[draussenwetter.de](https://draussenwetter.de/)** | pollen, bio-weather and frost for places in Germany as a website, no display needed (German) |
 | **[Changelog](CHANGELOG.md)** | what is new in which version |
 
 ## 🙏 Credits and licence
